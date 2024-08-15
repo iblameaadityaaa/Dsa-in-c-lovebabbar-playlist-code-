@@ -1,6 +1,8 @@
 #include<iostream>
 using namespace std;
-
+/*in this problem we are swapping the alternate items in arrays just simply swap the elements like you do but add i+1 as  i+2 
+coz we need to swap the alternate elements not the adjacent ones.
+*/
 void printArray(int arr[], int n) {
 
     for(int i = 0; i<n; i++ ) {
