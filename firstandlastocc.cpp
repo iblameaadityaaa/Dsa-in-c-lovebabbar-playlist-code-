@@ -1,3 +1,20 @@
+/* 
+we are gonna apply binary search on the array 
+for 
+ if(arr[mid] == key){
+            ans = mid;
+            e = mid - 1;//this is for finding the first occurence as if the number equals mid and 
+            if it has occured before we do mid-1 to search in left part of the array to see if 
+            it has occured before and that should be its first occ 
+            similarly with 
+              if(arr[mid] == key){
+            ans = mid;
+            s = mid + 1; 
+            we did mid+1 coz it will give us a occurence of the element if it equals mid after that
+            and that should be its last occ 
+            and we have applied binary search accd
+        }   
+*/
 #include<vector>
 using namespace std;
 int firstOcc(vector<int>& arr, int n, int key) {
