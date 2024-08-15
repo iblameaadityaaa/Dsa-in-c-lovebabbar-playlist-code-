@@ -2,6 +2,31 @@
 using namespace std;
 
 // HOLD
+/*
+Arrays- An array is a collection of items of the same variable type that are stored at contiguous memory locations.
+need of arrays-
+1)Storing data for processing
+2)Implementing data structures such as stacks and queues
+3)Representing data in tables and matrices
+4)Creating dynamic data structures such as linked lists and trees
+
+Array Operations:-
+Common operations performed on arrays include:
+
+Traversal : Visiting each element of an array in a specific order (e.g., sequential, reverse).
+Insertion : Adding a new element to an array at a specific index.
+Deletion : Removing an element from an array at a specific index.
+Searching : Finding the index of an element in an array.
+
+Applications of Array
+Arrays are used in a wide variety of applications, including:
+
+Storing data for processing
+Implementing data structures such as stacks and queues
+Representing data in tables and matrices
+Creating dynamic data structures such as linked lists and trees
+
+*/
 void printArray(int arr[], int size) {
 
     cout<< " printing the array " << endl;
