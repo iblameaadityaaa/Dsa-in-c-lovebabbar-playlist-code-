@@ -1,6 +1,9 @@
 #include<iostream>
 using namespace std;
-
+/*just simply intialise the start index as 1 last index as n-1. 
+now just put a loop that goes till the end of the aray and 
+swap the starting element with ending one and it will get reversed write a loop to print all the elements of the array which is easy asf.
+*/
 void reverse(int arr[], int n) {
 
     int start = 0;
